@@ -69,7 +69,7 @@ main {
 }
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 	padding-left: 1rem;
 	color: #1c110a;
 }
@@ -88,13 +88,19 @@ p {
 	letter-spacing: .1rem;
 }
 
+.center {
+	margin: auto;
+	padding-bottom: 1rem;
+}
+
 .contact {
 	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .email {
-	padding-left: 3rem;
-	margin-bottom: 10px;
+	padding-left: 6rem;
+	margin-bottom: 30px;
 	font-size: 2rem;
 }
 
