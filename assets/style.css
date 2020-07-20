@@ -1,0 +1,101 @@
+/*Colors: #CACAAA #EEC584 #C8AB83 #373D20 #3D3B30 #71697A #1C110A*/
+
+body {
+	font-family: 'Heebo', sans-serif;
+	letter-spacing: .25rem;
+	background-color: #d8d8b6;
+	display: flex;
+	margin: 0;
+}
+
+a {
+	color: #373d20;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #282c17;
+}
+
+/*nav*/
+.sidebar {
+	background-color: #cacaaa;
+	height: 100vh;
+	width: 22%;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+}
+
+nav {
+	line-height: .8rem;
+	align-self: center;
+}
+
+#logo {
+	max-width: 100%;
+}
+
+#title {
+	font-weight: 700;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	padding-bottom: 1rem;
+}
+
+#facebook {
+	place-self: center;
+	font-size: 4rem;
+	padding-top: 5rem;
+}
+
+#copyright {
+	width: 100%;
+	font-size: .75rem;
+	font-weight: 300;
+	margin: auto;
+	margin-bottom: 0;
+	justify-self: flex-end;
+}
+
+#copyright p {
+	margin-bottom: 2px;
+}
+/*content*/
+main {
+	display: flex;
+	flex-direction: column;
+	padding-left: 23%;
+}
+
+section {
+	height: 100vh;
+	padding-left: 1rem;
+	color: #1c110a;
+}
+
+h3 {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	font-weight: 600;
+	font-size: 2rem;
+	color: #373d20;
+}
+
+p {
+	width: 90%;
+	padding-left: 10px;
+	letter-spacing: .1rem;
+}
+
+.contact {
+	margin-bottom: 0;
+}
+
+.email {
+	padding-left: 3rem;
+	margin-bottom: 10px;
+	font-size: 2rem;
+}
+
+/*Media Queries*/
